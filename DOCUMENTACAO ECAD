@@ -1,0 +1,30 @@
+documentação sobre o processo de desenvolvimento de API REST e as Dificuldades encontradas.
+
+1 - A primeira ação feita foi criar uma aplicação em apis.twitter.
+2 - Foi criado REST usando JAX-RS
+3 - Foi utilizado Hibernate/JPA para persistencia no banco.
+4 - Foi criado um Teste Junit
+
+SOBRE A FUNCIONALIDADE:
+Foi instalado um complemento do Firefox chamado de HttpRequester que  possibilita realizar requisições a serviços REST utilizando vários verbos do protocolo HTTP.
+
+API se autentica primeiramente com o token gerado pelo api.twitter;
+
+Para executar o serviço, o suário acessa o url: htt://localhost:8080/rest/twitter/ e para cada funcionalidade apenas acrescenta o path do método;
+Aplicação autentica-se automaticamente pelo token gerado na hora de criação de applicação em Apis.twitter.
+
+Com o complemento de HttpRequester, fica bem explicito o uso de qualquer que seja o metodo que queida executar.
+
+
+
+
+
+
+
+DIFICULDADES ENCONTRADAS
+Ora, este texte basicamente foram os conceitos que comecei a estudar a pouco tempo, portanto, foi um pouco complexo(não dificil) para realizar. 
+Swagger, essa foi a primeira vez que ouvi falar, portanto, portanto, fui estuda-lo, porém, nao foi o suficiente o aprendizado para utiliza-lo.
+No crud, a tecnologia utilizada geralmente solicita o uso de JSF, bom, é um conceito que também aprendi nos meus estudos particulares, porém, como nunca o utilizei para fazer algo, ficou um pouco complicado para mim também.
+
+
+
